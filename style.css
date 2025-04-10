@@ -1,0 +1,52 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f7f9fc;
+  color: #333;
+}
+.container {
+  width: 85%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.hero {
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+.btn {
+  padding: 10px 20px;
+  background: #fff;
+  color: #4e54c8;
+  text-decoration: none;
+  border-radius: 5px;
+}
+section {
+  padding: 60px 0;
+}
+h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+.skills li {
+  background: #e0e0e0;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.project {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid #4e54c8;
+}
+.contact a {
+  color: #4e54c8;
+  text-decoration: none;
+}
