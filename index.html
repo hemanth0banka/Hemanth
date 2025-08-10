@@ -53,88 +53,9 @@
     <div class="flex justify-center space-x-4">
       <a href="#projects" class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold py-3 px-6 rounded-full animate__animated animate__pulse animate__infinite">View My Work</a>
       <a href="001" class="border border-white hover:bg-white hover:text-indigo-600 font-semibold py-3 px-6 rounded-full">📄 Download Resume</a>
-      <a id="resumeBtn" href="001" class="fixed bottom-6 right-6 bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-full shadow-lg animate-bounce z-50">
+      <a id="resumeBtn" href="https://drive.google.com/uc?export=download&id=1vQilozOJ6u-aYbLhPEVAghOmvnhWkj0L" class="fixed bottom-6 right-6 bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-full shadow-lg animate-bounce z-50">
         📄 Download Resume
       </a>
-      <script>
-        document.querySelector('a[href="001"]').addEventListener('click', async function (event) {
-          event.preventDefault();
-          
-          const { jsPDF } = window.jspdf;
-          const doc = new jsPDF();
-      
-          doc.setFont('Helvetica', 'bold');
-          doc.setFontSize(22);
-          doc.text('Hemanth Kumar Banka', 20, 20);
-          
-          doc.setFontSize(14);
-          doc.setFont('Helvetica', 'normal');
-          doc.text('Full-Stack Developer | CS Graduate | Problem Solver', 20, 30);
-      
-          doc.setFont('Helvetica', 'bold');
-          doc.setFontSize(16);
-          doc.text('About Me', 20, 50);
-      
-          doc.setFont('Helvetica', 'normal');
-          doc.setFontSize(12);
-          doc.text(`I'm a Computer Science Graduate passionate about building impactful digital products.
-      Skilled in Full-Stack Development, Databases, and Problem Solving.`, 20, 60, { maxWidth: 170 });
-      
-          doc.setFont('Helvetica', 'bold');
-          doc.setFontSize(16);
-          doc.text('Skills', 20, 90);
-      
-          doc.setFont('Helvetica', 'normal');
-          doc.setFontSize(12);
-          doc.text([
-            '- HTML, CSS, JavaScript, ReactJS, AngularJS',
-            '- Node.js, Express, PHP',
-            '- Python, Java, C, SAP (ABAP)',
-            '- SQL, MongoDB, MySQL',
-            '- Power BI, Cybersecurity, AI/ML',
-            '- Effective Communication, Time Management, Team Collaboration'
-          ], 20, 100);
-      
-          doc.setFont('Helvetica', 'bold');
-          doc.setFontSize(16);
-          doc.text('Education', 20, 150);
-      
-          doc.setFont('Helvetica', 'normal');
-          doc.setFontSize(12);
-          doc.text([
-            '- B.Tech in Computer Science | Amrita Sai Institute (2020-2024) | CGPA: 8.32',
-            '- Intermediate MPC | Narayana Junior College (2018-2020) | CGPA: 8.4',
-            '- Secondary Education | M.S.R.E.M High School (2017-2018) | CGPA: 9.0'
-          ], 20, 160);
-      
-          doc.setFont('Helvetica', 'bold');
-          doc.setFontSize(16);
-          doc.text('Projects', 20, 190);
-      
-          doc.setFont('Helvetica', 'normal');
-          doc.setFontSize(12);
-          doc.text([
-            '- Screen Recorder (Python)',
-            '- Portfolio Website (HTML & CSS)'
-          ], 20, 200);
-      
-          doc.setFont('Helvetica', 'bold');
-          doc.setFontSize(16);
-          doc.text('Contact', 20, 230);
-      
-          doc.setFont('Helvetica', 'normal');
-          doc.setFontSize(12);
-          doc.text([
-            'Email: bankahemanth@gmail.com',
-            'Phone: +91 7331175336',
-            'LinkedIn: https://www.linkedin.com/in/hemanth-kumar-banka'
-          ], 20, 240);
-      
-          doc.save('Hemanth_Kumar_Banka_Resume.pdf');
-        });
-      </script>
-      
-
     </div>
   </div>
   <div class="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-indigo-500 to-transparent"></div>
@@ -490,3 +411,4 @@
 
 </body>
 </html>
+
